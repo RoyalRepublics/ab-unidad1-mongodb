@@ -1,0 +1,102 @@
+{
+    "_id": ObjectId("507f1f77bcf86cd799439011"),
+    "sku": "LAP-GAM-001",
+    "nombre": "Laptop Gaming Pro",
+    "descripcion": "Laptop para gaming de alto rendimiento con tarjeta gráfica dedicada",
+    "precio": 1299.99,
+    "categoria": "Laptops",
+    "marca": "TechBrand",
+    "activo": true,
+    "fecha_creacion": ISODate("2024-01-15T10:30:00Z"),
+    
+    "inventario": {
+      "stock_total": 25,
+      "stock_minimo": 5,
+      "ubicaciones": [
+        {
+          "almacen": "Principal",
+          "stock": 15,
+          "estante": "A-12"
+        },
+        {
+          "almacen": "Norte",
+          "stock": 10,
+          "estante": "B-07"
+        }
+      ]
+    },
+    
+    "especificaciones": {
+      "procesador": "Intel i7-12700H",
+      "ram_gb": 16,
+      "almacenamiento_gb": 1000,
+      "tipo_almacenamiento": "SSD NVMe",
+      "tarjeta_grafica": "RTX 4060 8GB",
+      "pantalla_pulgadas": 15.6,
+      "resolucion": "1920x1080",
+      "sistema_operativo": "Windows 11",
+      "bateria_wh": 80,
+      "peso_kg": 2.3,
+      "puertos": ["USB-C", "HDMI", "USB 3.0", "Ethernet"]
+    },
+    
+    "etiquetas": ["gaming", "alto rendimiento", "rgb", "portátil"],
+    "multimedia": {
+      "imagen_principal": "laptop-gaming-pro.jpg",
+      "galeria": ["img1.jpg", "img2.jpg", "img3.jpg"]
+    }
+  }
+
+  {
+    "_id": ObjectId("507f1f77bcf86cd799439012"),
+    "sku": "SM-PHO-001",
+    "nombre": "Smartphone X200",
+    "descripcion": "Teléfono inteligente con cámara triple y conectividad 5G",
+    "precio": 699.99,
+    "categoria": "Smartphones",
+    "marca": "MobileTech",
+    "activo": true,
+    "fecha_creacion": ISODate("2024-01-20T14:20:00Z"),
+    
+    "inventario": {
+      "stock_total": 50,
+      "stock_minimo": 10,
+      "ubicaciones": [
+        {
+          "almacen": "Principal",
+          "stock": 30,
+          "estante": "C-03"
+        },
+        {
+          "almacen": "Sur",
+          "stock": 20,
+          "estante": "D-15"
+        }
+      ]
+    },
+    
+    "especificaciones": {
+      "pantalla_pulgadas": 6.7,
+      "tipo_pantalla": "AMOLED",
+      "resolucion": "2400x1080",
+      "refresh_rate_hz": 120,
+      "camara_principal_mp": 50,
+      "camara_ultra_angular_mp": 12,
+      "camara_teleobjetivo_mp": 8,
+      "bateria_mah": 5000,
+      "carga_rapida_w": 65,
+      "almacenamiento_gb": 256,
+      "ram_gb": 8,
+      "procesador": "Snapdragon 8 Gen 2",
+      "conectividad_5g": true,
+      "resistencia_agua": "IP68",
+      "peso_gramos": 195
+    },
+    
+    "etiquetas": ["5g", "cámara triple", "amoled", "carga rápida"],
+    "multimedia": {
+      "imagen_principal": "smartphone-x200.jpg",
+      "galeria": ["phone1.jpg", "phone2.jpg", "phone3.jpg"],
+      "video_review": "https://youtube.com/watch?v=abc123"
+    }
+  }

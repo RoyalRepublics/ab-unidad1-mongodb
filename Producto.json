@@ -1,0 +1,30 @@
+// Colección: productos
+{
+    "_id": ObjectId("..."),
+    "sku": "String (Indexado, Único)",
+    "nombre": "String",
+    "descripcion": "String",
+    "precio": "Number",
+    "categoria": "String",
+    "marca": "String",
+    "activo": "Boolean",
+    "fecha_creacion": "Date",
+    "inventario": {
+      "stock_total": "Number",
+      "stock_minimo": "Number",
+      "ubicaciones": [
+        {
+          "almacen": "String",
+          "stock": "Number",
+          "estante": "String"
+        }
+      ]
+    },
+    "especificaciones": {
+    },
+    "etiquetas": ["String"],
+    "multimedia": {
+      "imagen_principal": "String",
+      "galeria": ["String"]
+    }
+  }

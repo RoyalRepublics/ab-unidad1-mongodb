@@ -1,0 +1,9 @@
+// Conectar a la base de datos
+use('techstore');
+
+// Crear la colección e insertar datos
+db.productos.insertMany({
+});
+
+// Verificar la inserción
+db.productos.find().pretty();
